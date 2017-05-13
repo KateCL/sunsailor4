@@ -1,0 +1,868 @@
+
+
+@font-face {
+	font-family: avenir;
+	src:url(../fonts/avenir.ttc);
+}
+
+
+html, body {
+	width: 100%;
+	margin: 0px;
+	
+}
+
+
+a {
+	display: block;
+	text-decoration: none;
+	
+}
+
+/* a:hover {
+	color: yellow;
+} */
+
+/*--------------------------------------------- TOP BAR */
+
+.topbar {
+	width: 100%;
+	height: 34px;
+	background:black;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	clear: left;
+	z-index: +2;
+}
+
+#topbartext {
+	font-family: avenir;
+	font-size: 0.7em;
+	color: white;
+	position: relative;
+	left: 0%;
+	top: 0%;
+	text-align: center;
+	letter-spacing: 0.25em;
+}
+
+.searchbar {
+	height: 90%;
+	width: 15%;
+	background: white;
+	position: relative;
+	float: right;
+	top: -107.5%;
+	margin: 1px;
+}
+
+.searchglass {
+	width: 23px;
+	height: 23px;
+	position: relative;
+	margin: 1.5px;
+}
+
+
+
+/*--------------------------------------------- TITLE BAR */
+
+.titlebar {
+	width: 320px;
+	height: 190px;
+	background: white;
+	margin: auto;
+	
+}
+
+.title {
+	font-family: avenir;
+	font-size: 5em;
+	font-weight: bold;
+	color: black;
+	position: relative;
+	text-align: center;
+	line-height: 70px;
+	background: white;
+	z-index:+1;
+	top: 30%
+	
+}
+
+/*
+#circle {
+	border-radius: 100%;
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: white;
+	z-index: +2;
+	right: 57%;
+	top: 30%;
+	
+	-webkit-animation: circle 4s;
+	animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes circle {
+	0% {right: 57%; top:30%;}
+	100% {right: 30%; top:-30%;}
+}
+*/
+
+.socialmedia {
+	width: 300px;
+	height: 40px;
+	position: relative;
+	right: -145%;
+	top: 5px;
+	/*overflow: hidden; */
+	/*border: 1px black solid;*/
+}
+
+#fbsym {
+	width:39.2px;
+	height:39.25px;
+	/*position: absolute;*/
+	right: 18%;
+	top:72px;
+	float:left;
+	padding-right: 20px;
+}
+
+#twittersym {
+	width:39.2px;
+	height:39.25px;
+	/*position: absolute;*/
+	right: 13%;
+	top:72px;
+	float: left;
+	padding-right: 20px;
+}
+
+#instasym {
+	width:39.2px;
+	height:39.25px;
+	/*position: absolute;*/
+	right: 18%;
+	top:72px;
+	float: left;
+	padding-right: 20px;
+}
+
+#ytsym {
+	width: 39.2px;
+	height: 39.25px;
+	/*position: absolute;*/
+	/*right: 18%;*/
+	top: 72px;
+	float: left;
+	padding-right: 20px; 
+}
+
+.weatherbar {
+	width: 150px;
+	height: 63px;
+}
+
+#weather {
+	width: 150px;
+	height: 63px;
+	position: relative;
+	top: -100%;
+	right: -163%;
+}
+
+#titleline {
+	border-top: black 2px solid;
+	width: 97%;
+	height: 0px;
+	position: absolute;
+	top: 130px;
+	left: 1.5%;
+}
+
+/*--------------------------------------------- SECTION LINK BAR */
+
+
+.linkbar {
+	width: 100%;
+	height: 34px;
+	border-bottom: black .5px solid;
+	border-top: black .5px solid;
+	position:absolute;
+	top: 229px;
+	left: 0px;
+	margin: 0px;
+	overflow: hidden;
+	z-index: +3;
+}
+
+.sportsbar {
+	width: 16.65%;
+	height: 73%;
+	background: white;
+	float: left;
+	color: black;
+	font-family: avenir;
+	text-align: center;
+	padding-top: 3px;
+	letter-spacing: 0.03em;
+	border-top: black 9px solid;
+}	
+
+
+
+
+.sportsbar:hover {
+	border-top: darkorange 9px solid;
+}
+
+
+
+.edubar {
+	width: 16.65%;
+	height: 73%;
+	background: black;
+	float: left;
+	font-family: avenir;
+	text-align: center;
+	color: white;
+	padding-top: 3px;
+	letter-spacing: 0.03em;
+	border-top: white 9px solid;
+}
+
+.edubar:hover {
+	border-top: lightblue 9px solid;
+}
+
+
+.artsbar {
+	width: 16.65%;
+	height: 73%;
+	background: white;
+	float: left;
+	color: black;
+	font-family: avenir;
+	text-align: center;
+	padding-top: 3px;
+	letter-spacing: 0.03em;
+	border-top: black 9px solid;
+
+}
+
+.artsbar:hover {
+	border-top: purple 9px solid;
+}
+	
+.communitybar {
+	width: 16.65%;
+	height: 73%;
+	background: black;
+	float: left;
+	font-family: avenir;
+	text-align: center;
+	color: white;
+	padding-top: 3px;
+	letter-spacing: 0.03em;
+	border-top: white 9px solid;
+}
+
+.communitybar:hover {
+	border-top: yellow 9px solid;
+}
+
+.politicsbar {
+	width: 16.65%;
+	height: 73%;
+	background: white;
+	float: left;
+	color: black;
+	font-family: avenir;
+	text-align: center;
+	padding-top: 3px;
+	letter-spacing: 0.03em;
+	border-top: black 9px solid;
+}
+
+.politicsbar:hover {
+	border-top: red 9px solid;
+}
+
+.businessbar {
+	width: 16.72%;
+	height: 73%;
+	background: black;
+	float: right;
+	font-family: avenir;
+	text-align: center;
+	top: -10px;
+	color: white;
+	padding-top: 3px;
+	letter-spacing: 0.03em;
+	border-top: white 9px solid;
+
+}
+
+.businessbar:hover {
+	border-top: blue 9px solid;
+}
+
+
+/*--------------------------------------------- AD 1 */ 
+
+.ad1bar {
+	width: 748px;
+	height: 116px;
+	position: relative;
+	top: 119px;	
+	z-index: +2;
+	margin: auto;
+}
+
+ #ad1 {
+	width: 872px;
+	height: 108px;
+	top: 100px;
+	
+} 
+
+#urbanad {
+	width: 748px;
+	height: 116px;
+	position: relative;
+}
+
+/*--------------------------------------------- FEATURED STORY */ 
+
+#featuredtitle {
+	font-family: avenir;
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+	color: #A7A9AB;
+	position: relative;
+	top: 178px;
+	letter-spacing: 0.1em;
+	
+}
+
+#featuredline {
+	border-top: yellow 4px solid;
+	width: 100%;
+	height: 0px;
+	position: relative;
+	top: 155px;
+}
+
+
+.featuredstory {
+	width: 99%;
+	height: 804px;
+	background: black;
+	position: absolute;
+	left: 0.5%;
+	top: 525px;
+}
+
+#rudenessimage {
+	width: 45%;
+	position: relative;
+	margin: 30px;
+	float: right;
+	-webkit-animation: rude 2s ease-in;
+	animation-delay: 1.25s;
+	animation-fill-mode: forwards;
+}
+
+
+#feattext1 {
+	font-family: avenir;
+	font-size: 1.3em;
+	color: white;
+	position: relative;
+	top: 30%;
+	left: 10%;
+	float: left;
+}
+
+#feattext2 {
+	font-family: avenir;
+	font-size: 1.3em;
+	color: white;
+	position: relative;
+	top: 40%;
+	right: 10%;
+	float: right;
+}
+
+	
+#articletitle {
+	font-family: avenir;
+	font-size: 3em;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	text-align: center;
+	width: 49%;
+	height: 11%;
+	line-height: 40px;
+	word-spacing:-5px;
+	top: 77%;
+	}
+
+#articletitle:hover {
+	color: orangered;
+}
+
+
+.size {
+	font-size: .5em;
+	font-variant: light;	
+}
+
+/*--------------------------- FEAT STORY DATE */
+
+#featstorydate {
+	font-family: avenir;
+	font-size: .7em;
+	color: white;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.25em;
+	bottom: 9%;
+	left: 22%;
+}
+
+		/*------------------------------ FEAT AUTHOR */
+
+#featauthor {
+	font-family: avenir;
+	font-size: 1em;
+	color: white;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.05em;
+	bottom: 6%;
+	left: 20.25%;
+
+}
+
+
+
+/*--------------------------------------------- SPORTS STORY */ 
+
+.otherstories {
+	width: 100%;
+	height: 1200px;
+	position: absolute;
+	top: 1388px;
+	background:black
+	
+}
+
+.sportsblock {
+	width: 100%;
+	height: 435px;
+	background: black;
+	position: relative;
+	float: left;
+}
+
+
+
+#sportstitle {
+	font-family: avenir;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: white;
+	position: relative;
+	top: -53px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin: 12px 0px 9px 0px;
+	background: black;
+	width: 15.5%;
+	padding: 6px;
+	border-top: darkorange 9px solid;
+}
+
+#sportsline {
+	border-top: darkorange 3px solid;
+	width: 100%;
+	height: 0px;
+	position: relative;
+	/*top: 316.5px;*/
+}
+
+
+
+#sportsimage {
+	width: 350px;
+	height: 360.5px;
+	position: relative;
+	float: left;
+	left: 19%;
+	margin-top: 8px;
+}
+
+.sportstitlebar {
+	width: 716px;
+	height: 37px;
+	background: white;
+	position: absolute;
+	bottom: 5px;
+}
+
+#sportsstorytitle {
+	font-family: avenir;
+	font-size: 1.3em; 
+	font-weight: bold;
+	width: 650px;
+	position: relative;
+	color: black;
+	float: left;
+	/*margin-top: 20px;*/
+	text-align: center;
+	top: 5px;
+}
+
+#sportsstorytitle:hover {
+	color: darkorange;
+}
+
+
+.sportsintro {
+	font-family: avenir;
+	font-size: .7em; 
+	line-height: 1.2;
+	width: 283px;
+	height: 220px;
+	position: relative;
+	color: white;
+	float: left;
+	left: -318px;
+	top: 29px;
+}
+
+
+#readmore1 {
+	font-family: avenir;
+	font-size: .9em;
+	font-weight: bold;
+	position:relative;
+	color: white;
+	text-align: center;
+	width: 110px;	
+	float: left;
+	top: 66%;
+	left: -542px;
+}
+
+#readmore1:hover {
+	color: black;
+	background: white;
+}
+
+
+/*--------------------------------------------- EDU STORY */ 
+
+.edublock {
+	width: 100%;
+	height: 550px;
+	background: white;
+	position: relative;
+	float: right;
+	/*border: black 1px solid;*/
+	margin-top: 70px;
+	
+}
+
+	
+
+#edutitle {
+	font-family: avenir;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: black;
+	position: relative;
+	top: -54px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin: 12px 0px 9px 0px;
+	background: white;
+	width: 15.5%;
+	padding: 6px;
+	border-top: lightblue 9px solid;
+	left: 16.8%;
+}
+
+#edutitle:hover {
+background:black;
+color: white ;
+}
+
+
+#eduline {
+	border-top: lightblue 3px solid;
+	width: 100%;
+	height: 0px;
+	position: relative;
+	/*top: 316.5px;*/
+	
+}
+
+#eduimage {
+	width: 361.5px;
+	height: 360.5px;
+	position: relative;
+	float: left;
+	/*top: -23.5px;*/
+	left: 19%;
+	margin-top: 8px;
+
+}
+
+#eduimagetext {
+	
+}
+
+.edutitlebar {
+	width: 731px;
+	height: 37px;
+	background: black;
+	position: absolute;
+	top: 377px;
+	left: 0%;
+	
+}
+
+.edutitlebar:hover {
+	background: white;
+}
+
+
+#edustorytitle {
+	font-family: avenir;
+	font-size: 1.4em; 
+	font-weight: bold;
+	width: 700px;
+	position: absolute;
+	color: white;
+	float: right;
+	margin-left: 9px; 
+	margin-bottom: 5px;
+	top: 4px;
+}
+
+#edustorytitle:hover {
+	color: black;
+	background: white;
+	}
+
+.eduintro {
+	font-family: avenir;
+	font-size: .7em; 
+	line-height: 1.2;
+	width: 290px;
+	height: 245px;
+	position: relative;
+	color: black;
+	float: left;
+	left: -335px;
+	top: 25px;
+	overflow: hidden;
+	
+}
+
+
+#readmore2 {
+	font-family: avenir;
+	font-size: .9em;
+	font-weight: bold;
+	position:relative;
+	color: black;
+	text-align: center;
+	width: 110px;
+	float: left;
+	top: 49%;
+	left: -542px;	
+	
+	
+}
+
+#readmore2:hover {
+	color: white;
+	background: black;
+}
+
+
+
+/*--------------------------------------------- COMM STORY */ 
+
+.commblock {
+	width: 100%;
+	height: 471px;
+	background: black;
+	position: relative;
+	float: left;
+	/*border: black 1px solid;*/
+	margin-top: 70px;
+	top: -115px;
+	
+}
+
+#commtitle {
+	font-family: avenir;
+	font-size: 1.07em;
+	font-weight: bold;
+	color: white;
+	position: relative;
+	top: -54px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	margin: 12px 0px 9px 0px;
+	background: black;
+	width: 16.65%;
+	padding: 8px;
+	border-top: yellow 9px solid;
+	left: 49.94%;
+	
+}
+
+#commline {
+	border-top: yellow 3px solid;
+	width: 100%;
+	height: 0px;
+	position: relative;
+	/*top: 316.5px;*/
+}
+
+.commimage {
+	width: 361.5px;
+	height: 361.5px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	left: 23.5%;
+	margin-top: 18px;
+}
+
+.commtitlebar {
+	width: 722px;
+	height: 37px;
+	background: white;
+	position: absolute;
+	top: 385px;
+}
+
+.commtitlebar:hover {
+	background: black;
+}
+
+#commstorytitle {
+	font-family: avenir;
+	font-size: 1.4em; 
+	font-weight: bold;
+	width: 700px;
+	position: absolute;
+	color: black;
+	float: right;
+	margin-top: 4px;
+	margin-left: 9px; 
+	margin-bottom:10px;
+	top: 0px;
+}
+
+#commstorytitle:hover{
+	color: white;
+	background: black;
+}
+
+.commintro {
+	font-family: avenir;
+	font-size: .7em; 
+	line-height: 1.2;
+	width: 283px;
+	height: 245px;
+	position: relative;
+	color: white;
+	float: left;
+	left: -335px;
+	top: 25px;
+	overflow: hidden;
+}
+
+
+#readmore3 {
+	font-family: avenir;
+	font-size: .9em;
+	font-weight: bold;
+	position:relative;
+	color: white;
+	text-align: center;
+	width: 110px;	
+	float: left;
+	top: 59.5%;
+	left: -542px;
+}
+
+#readmore3:hover {
+	color: black;
+	background: white;
+}
+
+/*--------------------------------------------- AD 2 */ 
+
+.ad2bar {
+	width: 748px;
+	height: 226.5px;
+	margin: auto;
+	position: relative;
+	top: 2569px;
+	border: lightgrey 1px solid;
+	overflow:hidden;
+	
+}
+
+#ikeaad {
+	width: 727.5px;
+	height: 187.5px;
+	top: 17px;
+	position: relative;
+	overflow:hidden;
+}
+
+
+
+/*--------------------------------------------- BOTTOM BAR */ 
+
+
+
+.bottombar {
+	width: 100%;
+	height: 61px;
+	background:black;
+	position:absolute;
+	top: 3158px;
+	left: 0px;
+	margin: 0px;
+	clear: left;
+	overflow:hidden;
+}
+
+#bottombartext {
+	font-family: avenir;
+	font-size: 0.7em;
+	color: white;
+	position: relative;
+	left: 0.5%;
+	top: 0%;
+	text-align: center;
+	letter-spacing: 0.25em;
+	margin-top: 12px;
+	line-height: 1; 
+}

@@ -1,0 +1,268 @@
+@font-face {
+	font-family: avenir;
+	src:url(../fonts/avenir.ttc);
+}
+
+
+html, body {
+	width: 100%;
+	margin: 0px;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+}
+	
+/*--------------------------------------------- TOP BAR */
+
+.topbar {
+	width: 100%;
+	height: 34px;
+	background:black;
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	clear: left;
+	z-index:+1;
+}
+
+.titlebar {
+	width: 120px;
+	height: 32px;
+	background: black;
+	float: left;
+	
+}
+
+#title {
+	font-family: avenir;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: white;
+	position: relative;
+	float: left;
+	margin: 6px 0px 0px 10px;
+}
+
+
+#weather {
+	width: 47px;
+	height: 20px;
+	position: relative;
+	/*right: -163%;*/
+	margin-left: 13px;
+	margin-top: 2.5px;
+	float: left;
+	
+}
+
+
+
+#topbartext {
+	font-family: avenir;
+	font-size: 0.7em;
+	color: white;
+	position: absolute;
+	left: 15%;
+	top: 0%;
+	text-align: center;
+	letter-spacing: 0.25em;
+	width: 230px;
+}
+
+.searchbar {
+	height: 90%;
+	width: 15%;
+	background: black;
+	border: white 1px solid;
+	position: relative;
+	float: right;
+	top: -1.5%;
+	margin: 1px;
+}
+
+.searchglass {
+	width: 23px;
+	height: 23px;
+	position: relative;
+	margin: 1.5px;
+}
+
+/*--------------------------------------------- IMAGE BLOCK  */
+
+.imageblock {
+	width: 100%;
+	height: 96%;
+	background: black;
+	position: absolute;
+	top: 32px;
+	overflow: hidden;
+	
+}
+
+img#rudenesspic1 {
+	top: 32px;
+	width:100%;
+}
+
+.titleblock {
+	width: 25%;
+	height: 100%;
+	background: black;
+	position: absolute;
+	top: 0px;
+	right: 20%;
+	
+	-webkit-animation: drop 2.5s ease-out;
+	animation-fill-mode: forwards;
+}
+
+ @-webkit-keyframes drop {
+	0% {top: -1000px;}
+	100% {top: 0px;}
+} 
+
+
+#articletitle {
+	font-family: avenir;
+	font-size: 3em;
+	font-weight: bold;
+	color: white;
+	position: absolute;
+	text-align: center;
+	width: 90%;
+	height: 30%;
+	line-height: 40px;
+	word-spacing:-5px;
+	margin: 0px 19px 0px 19px;
+	bottom:0%;
+	}
+
+
+.size {
+	font-size: .5em;
+	font-variant: light;	
+}
+
+		/*--------------------------- FEAT STORY DATE */
+
+#featstorydate {
+	font-family: avenir;
+	font-size: .7em;
+	color: white;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.25em;
+	bottom: 14%;
+	left: 39%;
+}
+
+		/*------------------------------ FEAT AUTHOR */
+
+#featauthor {
+	font-family: avenir;
+	font-size: 1em;
+	color: white;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 0.05em;
+	bottom: 11%;
+	left: 32%;
+}
+
+/*--------------------------------------------- BACK TO TOP  */
+
+
+.navblock {
+	width: 78px;
+	height: 100%;
+	background: black;
+	position: fixed;
+	z-index: -1;
+}
+
+#gotop {
+	font-family: avenir;
+	font-size: 1em;
+	color: white;
+	position: fixed;
+	left: 16px;
+	top: 93%;
+	line-height: 1;
+}
+/*--------------------------------------------- MAIN TEXT  */
+
+.textcon {
+	width: 41%;
+	position: absolute;
+	left: 16%;
+	top: 111%;
+	margin-bottom: 40px;
+}
+	
+.maintext {
+	font-family: avenir;
+	font-size: .8em;
+	color: black;
+}
+
+.big {
+	font-weight: bold;
+	font-size: 5em;
+}
+
+.speech {
+	font-style: italic;
+}
+
+
+/*--------------------------------------------- IMAGEs */
+
+#rudeness2 {
+	width: 500px;
+	height: 600px;
+	position: absolute;
+	top: 150%;
+	right: 0px;
+}
+
+#rudeness3 {
+	width: 500px;
+	height: 600px;
+	position: absolute;
+	top: 350%;
+	right: 0px;
+}
+
+
+
+
+/*--------------------------------------------- BOTTOM BAR */ 
+
+
+
+.bottombar {
+	width: 100%;
+	height: 61px;
+	background:black;
+	position:relative;
+	bottom: 0px;
+	left: 0px;
+	margin: 0px;
+	clear: left;
+	top: 5600px;
+}
+
+#bottombartext {
+	font-family: avenir;
+	font-size: 0.7em;
+	color: white;
+	position: relative;
+	left: 0%;
+	top: 17%;
+	text-align: center;
+	letter-spacing: 0.25em;
+	margin-top: 12px;
+}
